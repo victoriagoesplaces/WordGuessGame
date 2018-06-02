@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+    <img src="assets/images/mickey.jpg" width="37" height="30" class="d-inline-block align-top" alt="">
+    Word Guess Game: Disney Edition
+    </a>
+</nav>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-8">
+        <div class="jumbotron jumbotron-fluid text-center">
+          <h5 class="display-4" id="movie">_ _ _ _ _ _ _</h5>
+          <h5 class="lead">Disney Movie</h5>
+        </div>
+    </div>
+
+    <div class="col-med-4">
+        <div class="card card border-primary" style="width: 18rem;">
+        <div class="card-header text-center">
+          Important Information
+        </div>
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item">Letters Used: <span id="used"></span></li>
+          <li class="list-group-item">Guesses Left:<span id="guess"></span></li>
+          <li class="list-group-item">Wins:<span id="wins"></span></li>
+          <li class="list-group-item">Losses:<span id="losses"></span></li>
+          <li href="#" class="btn btn-primary">Play again</li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+<nav class="navbar fixed-bottom navbar-light bg-light">
+    <a class="navbar-brand">&copy; Copyright 2018 Victoria M Gonzalez</a>
+</nav>      
+
+</body>
+</html>
