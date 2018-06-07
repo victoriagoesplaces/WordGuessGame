@@ -52,14 +52,14 @@ function startGame()
 	// setting letters that can be used when guessing the movie
 	
 	letters = ["a","b","c",
-					  "d","e","f",
-					  "g","h","i",
-					  "j","k","l",
-					  "m","n","o",
-					  "p","q","r",
-					  "s","t","u",
-					  "v","w","x",
-					  "y","z"];
+				"d","e","f",
+				"g","h","i",
+				"j","k","l",
+				"m","n","o",
+				"p","q","r",
+				"s","t","u",
+				"v","w","x",
+				"y","z"];
 	
 	// once variables are define updates the ids on HTML 
 	document.getElementById("movieToGuess").innerHTML = partiallySolved.join(" ");
@@ -156,7 +156,7 @@ document.onkeyup = function(event)
 	{	
 		if(letterGuessed === letters[i] && test === true)
 		{
-            // removes letters already chosen so if a duplicate key is pressed it doesnt count as another guess
+            // doesn't coun letters against you if they were alredy typed.
             var spliceLetters = letters.splice(i,1);
 
 			compareLetters(letterGuessed);

@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+background-image: url('../images/background.jpg');
+background-size: 100%;
+font-family: 'Handlee', cursive;
+}
+
+
+.jumbotron {
+    padding-top: 7%;
+    margin-top: 2%;
+    background: rgba(251, 221, 227, 0.8); 
+    text-align: center;
+    /* font-family: fantasy; */
+ }
+
+.panel {
+    background: rgba(251, 221, 227, 0.8); 
+    padding-left: 5%;
+    /* font-family: fantasy; */
+}
+
+.btn-info {
+    background: palevioletred;
+    border-color:  palevioletred;
+    color: black;
+}
+
+.btn-info:hover{
+    background: rgb(229, 147, 174);
+    border-color:  rgb(229, 147, 174);
+ 
+}
+
+.btn-info:focus{
+    background: rgb(229, 147, 174)!important;
+    border-color:  rgb(229, 147, 174)!important;
+    color: black !important;
+}
+
+.btn {
+    transition: none;
+}
+
+.navbar {
+    background: palevioletred!important;
+}
+
+.navbar-brand {
+    padding-left: 36%;
+    color: white;
+}
+
+/* .button{
+    background: palevioletred!
+} */
