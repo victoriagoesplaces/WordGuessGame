@@ -14,3 +14,7 @@ It is easy just enter a letter of the alphabet (Tip: No need to use the spacebar
 
 Once you have completely guessed the Disney movie title (all letters are revealed), or  if you have guess a total of 12 letters incorrectly. 
  
+### Screenshot
+
+![screenshot](assets/images/screenshot.jpg "Screenshot of game")
+
