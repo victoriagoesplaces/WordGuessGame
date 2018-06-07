@@ -14,19 +14,19 @@ font-family: 'Handlee', cursive;
     margin-top: 2%;
     background: rgba(251, 221, 227, 0.8); 
     text-align: center;
-    /* font-family: fantasy; */
  }
 
+#movieToGuess {
+    font-weight: bolder;
+}
 .panel {
-    background: rgba(251, 221, 227, 0.8); 
-    padding-left: 5%;
-    /* font-family: fantasy; */
+    background: rgba(251, 221, 227, 0.8);  
 }
 
 .btn-info {
     background: palevioletred;
     border-color:  palevioletred;
-    color: black;
+    color: black !important;
 }
 
 .btn-info:hover{
@@ -51,9 +51,5 @@ font-family: 'Handlee', cursive;
 
 .navbar-brand {
     padding-left: 36%;
-    color: white;
 }
 
-/* .button{
-    background: palevioletred!
-} */
